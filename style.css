@@ -61,3 +61,32 @@ footer{
 #google{
     background-position: -365px -221px;
 }
+@media screen and (max-width: 600px) {
+    nav{
+        position: relative;
+        background-color: #F6F4F5;
+    }
+    .title{
+        background-color: #BFD07A;
+        padding: 1vw;
+        color: black;
+    }
+    .links{
+        display: none;
+        z-index: 1;
+        position: absolute;
+        background-color: #BFD07A;
+        min-width: 100vw;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    .links a{
+        color: black;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        display: block;
+    }
+    .links a:hover{background-color: #ddd; transition: .5s;}
+    nav:hover .links{display: block; transition: .5s;}
+    nav:hover .title{background-color: #a0b0c1; transition: .5s;}
+
+}

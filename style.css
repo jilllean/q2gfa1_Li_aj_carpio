@@ -18,12 +18,12 @@ nav{
 }
 .links a{
     text-decoration: none;
-    color: #F6F4F5;
+    color: black;
     font-family: 'Poppins', sans-serif;
     margin-left: 1vw;
 }
 .title{
-    color: #F6F4F5;
+    color: black;
     font-family: 'Poppins', sans-serif;
     font-size: larger;
 }
@@ -31,12 +31,12 @@ main h1{
     padding: 1.5vw;
     margin-top: 8.5vw;
     font-family: 'Poppins', sans-serif;
-    color: #F6F4F5;
+    color: black;
 }
 main p{
     margin-left: 1.5vw;
     font-family: 'Poppins', sans-serif;
-    color: #F6F4F5;
+    color: black;
 }
 footer{
     text-align: center;
